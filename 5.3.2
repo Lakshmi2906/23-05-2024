@@ -1,0 +1,7 @@
+def count_subsets(arr):
+    n = len(arr)
+    return 2 ** n
+print("Enter the elements of the array separated by spaces:")
+arr = list(map(int, input().split()))
+total_subsets = count_subsets(arr)
+print("Total number of subsets:", total_subsets)
